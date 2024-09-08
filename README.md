@@ -51,4 +51,7 @@ history = model.fit(X_train, y_train, epochs=50, batch_size=64, validation_data=
 ```
 
 ## 5. Results
+*github does not render bokeh plots correctly. Below is a screenshot of the results from the notebook, normalizing the data.
+![results](content/results-notebook.png)
+
 The LSTM model captures the trends in bike rentals and generalizes well on the test data. The use of Huber Loss and other metrics helps balance prediction accuracy and robustness against outliers. Future improvements could focus on better capturing extreme fluctuations during high-demand periods.
